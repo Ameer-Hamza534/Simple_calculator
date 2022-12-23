@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 992px) {
   .calculator {
-    width: 90vw;
+    width: 55vw;
   }
   .row-input {
     height: 18vh;
@@ -107,49 +107,73 @@
     font-size: 70px;
   }
   .row .btn {
-    padding: 30px;
-    font-size: 40px;
+    padding: 10px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .calculator {
-    width: 90vw;
+    width: 70vw;
   }
   .title {
-    font-size: 32px;
+    font-size: 25px;
   }
   .row-input {
     height: 18vh;
   }
   .row-input #value {
-    font-size: 57px;
+    font-size: 42px;
   }
   .row .btn {
-    padding: 25px;
-    font-size: 32px;
+    padding: 9px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 655px) {
   .calculator {
-    width: 97vw;
+    width: 72vw;
+    padding: 0 15px;
+  }
+  .title {
+    font-size: 25px;
   }
   .row-input {
-    height: 18vh;
+    height: 15vh;
   }
   .row-input #value {
-    font-size: 70px;
+    font-size: 42px;
   }
   .row .btn {
-    padding: 30px;
-    font-size: 40px;
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .calculator {
+    width: 90vw;
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .row-input {
+    height: 15vh;
+  }
+  .row-input #value {
+    font-size: 42px;
+  }
+  .row .btn {
+    padding: 10px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .calculator {
-    width: 97vw;
+    width: 98vw;
+    padding: 0 10px;
   }
   .title {
     font-size: 22px;
@@ -169,6 +193,7 @@
 @media screen and (max-width: 320px) {
   .calculator {
     width: 100%;
+    padding: 0 10px;
   }
   .title {
     font-size: 22px;
@@ -180,7 +205,7 @@
     font-size: 32px;
   }
   .row .btn {
-    padding: 12px;
-    font-size: 20px;
+    padding: 8px;
+    font-size: 18px;
   }
 }
